@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Resume-Krupenko</title>
+  </head>
+
+  <body>
+    <div class="grid">
+      <input type="checkbox" id="sidebar-trigger" />
+      <aside class="side-bar">
+        <nav class="navigation-sidebar">
+          <a href="#about" class="nav-control" aria-label="logotype"></a>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">
+                <i class="nav-link-icon fas fa-house-user"></i>
+                <span class="nav-link-text">home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">
+                <i class="nav-link-icon fas fa-user"></i>
+                <span class="nav-link-text">about</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">
+                <i class="nav-link-icon fas fa-address-card"></i>
+                <span class="nav-link-text">resume</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">
+                <i class="nav-link-icon fas fa-file"></i>
+                <span class="nav-link-text">portfolio</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">
+                <i class="nav-link-icon fas fa-envelope"></i>
+                <span class="nav-link-text">contacts</span>
+              </a>
+            </li>
+          </ul>
+
+          <a href="#home" class="to-top">
+            <i class="to-top-icon fas fa-angle-up"></i>
+          </a>
+        </nav>
+
+        <label
+          for="sidebar-trigger"
+          class="sidebar-toggle fas fa-angle-double-right"
+          aria-label="navigation toggle button"
+        ></label>
+      </aside>
+
+      <main class="content">
+        <!--------------------------HERO------------------------------- -->
+        <section id="home" class="hero-section">
+          <div class="container">
+            <h2 class="hero-title">Alona Krupenko</h2>
+            <p class="hero-description">I am beginner Front-End Developer</p>
+            <ul class="hero-list">
+              <li class="hero-item">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/alona-krupenko-6349091bb/"
+                  class="hero-link"
+                >
+                  <i class="hero-icon fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="hero-item">
+                <a
+                  target="_blanc"
+                  href="https://m.facebook.com/profile.php"
+                  class="hero-link"
+                >
+                  <i class="hero-icon fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li class="hero-item">
+                <a
+                  target="_blanc"
+                  href="https://github.com/AlonaKrupenko"
+                  class="hero-link"
+                >
+                  <i class="hero-icon fab fa-github-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!---------------------------ABOUT------------------------------- -->
+        <section id="about" class="about-section">
+          <div class="container">
+            <h1 class="about-heading">
+              About
+              <span class="about-heading-part">Me</span>
+            </h1>
+
+            <div class="about-content">
+              <div class="about-description">
+                <div class="about-text-block">
+                  <p class="about-text">
+                    <span class="about-text-greeting">Hello,</span>
+                    I am Alona Krupenko, a Front-End developer from Odesa,
+                    Ukraine. I spent last year building professional experience
+                    in such technologies as HTML/CSS, JavaScript and React. My
+                    goal is to find good job with feasibility to grow up as a
+                    developer and create usefull solution in a team of great
+                    people.
+                  </p>
+                  <div class="about-button-block">
+                    <form
+                      method="get"
+                      action="./files/Krupenko_CV_React.pdf"
+                      target="_blank"
+                    >
+                      <button class="primary-btn" download>Download CV</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="about-user-photo-block">
+                  <img
+                    class="about-user-photo"
+                    src="img/user-img.jpeg"
+                    alt="user-photo"
+                  />
+                </div>
+              </div>
+
+              <!-- ================================SKILLS===================== -->
+              <div class="about-skills-block">
+                <p class="about-skills-text">
+                  Here are
+                  <span class="about-skills-text-part"> My skills</span>
+                </p>
+                <ul class="about-skills-list">
+                  <li class="about-skills-item">
+                    <a
+                      href="https://ru.wikipedia.org/wiki/HTML5"
+                      class="about-skills-link"
+                      target="_blank"
+                    >
+                      <img
+                        class="about-skills-img"
+                        src="img/skills-logo-html.svg"
+                        alt="html logo"
+                      />
+                      <p class="about-skills-name">HTML5</p>
+                    </a>
+                  </li>
+                  <li class="about-skills-item">
+                    <a
+                      href="https://ru.wikipedia.org/wiki/CSS"
+                      class="about-skills-link"
+                      target="_blank"
+                    >
+                      <img
+                        class="about-skills-img"
+                        src="img/skills-logo-css.svg"
+                        alt="CSS 3 logo"
+                      />
+                      <p class="about-skills-name">CSS3</p>
+                    </a>
+                  </li>
+                  <li class="about-skills-item">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+                      class="about-skills-link"
+                      target="_blank"
+                    >
+                      <img
+                        class="about-skills-img"
+                        src="img/skills-logo-bootstrap.svg"
+                        alt="bootstrap logo"
+                      />
+                      <p class="about-skills-name">Bootstrap</p>
+                    </a>
+                  </li>
+                  <li class="about-skills-item">
+                    <a
+                      href="https://ru.wikipedia.org/wiki/Sass"
+                      class="about-skills-link"
+                      target="_blank"
+                    >
+                      <img
+                        class="about-skills-img"
+                        src="img/skills-logo-sass.svg"
+                        alt="sass logo"
+                      />
+                      <p class="about-skills-name">SASS</p>
+                    </a>
+                  </li>
+
+                  <li class="about-skills-item">
+                    <a
+                      href="https://ru.wikipedia.org/wiki/JavaScript"
+                      class="about-skills-link"
+                      target="_blank"
+                    >
+                      <img
+                        class="about-skills-img"
+                        src="img/skills-logo-js.svg"
+                        alt="javascript logo"
+                      />
+                      <p class="about-skills-name">JavaScript</p>
+                    </a>
+                  </li>
+
+                  <li class="about-skills-item">
+                    <a
+                      href="https://ru.wikipedia.org/wiki/React"
+                      class="about-skills-link"
+                      target="_blank"
+                    >
+                      <img
+                        class="about-skills-img"
+                        src="img/skills-logo-react.svg"
+                        alt="react logo"
+                      />
+                      <p class="about-skills-name">React</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---------------------------RESUME------------------------------- -->
+        <section id="resume" class="resume-section">
+          <div class="container">
+            <h1 class="resume-heading">
+              My
+              <span class="resume-heading-part">Resume</span>
+            </h1>
+
+            <div class="resume-content-block">
+              <div class="resume-main-bloks">
+                <div class="resume-block-heaing">
+                  <h3 class="resume-heading-subtitle">
+                    <span class="resume-block-icon fas fa-pen"></span>
+                    Experience
+                  </h3>
+                </div>
+                <ul class="resume-list">
+                  <li class="resume-item">
+                    <h5 class="resume-item-title">React</h5>
+                    <div class="resume-item-time-place">
+                      <p class="resume-item-time">Mar 2022</p>
+                      <p class="resume-item-place">JunJun</p>
+                    </div>
+                    <p class="resume-item-text">
+                      - cutting-edge ES6/ES7 JavaScript; <br />
+                      - launching React apps; <br />
+                      - the latest React libraries and tools;<br />
+                      - lifecycle Methods and Hooks.
+                    </p>
+                  </li>
+                  <li class="resume-item">
+                    <h5 class="resume-item-title">Front-End</h5>
+                    <div class="resume-item-time-place">
+                      <p class="resume-item-time">2021-2022</p>
+                      <p class="resume-item-place">Hillel IT School</p>
+                    </div>
+                    <p class="resume-item-text">
+                      - creating JavaScript code and debugging it;<br />
+                      - interactive Web sites through the DOM API;<br />
+                      - changing the CSS styles of HTML 5 elements from
+                      JavaScript;<br />
+                      - HTML 5 forms and making basic graphics and animations.
+                    </p>
+                  </li>
+                  <li class="resume-item">
+                    <h5 class="resume-item-title">Sales manager</h5>
+                    <div class="resume-item-time-place">
+                      <p class="resume-item-time">2018-2021</p>
+                      <p class="resume-item-place">
+                        ZIM Integrated Shipping Services
+                      </p>
+                    </div>
+                    <p class="resume-item-text">
+                      - quoting import and export rates;<br />
+                      - creation of sales contracts;<br />
+                      - getting new customers and supporting of current ones.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="resume-main-bloks">
+                <div class="resume-block-heaing">
+                  <h3 class="resume-heading-subtitle">
+                    <span class="resume-block-icon fas fa-user-graduate"></span>
+                    Education
+                  </h3>
+                </div>
+                <ul class="resume-list">
+                  <li class="resume-item">
+                    <h5 class="resume-item-title">
+                      Transport technologies and systems
+                    </h5>
+                    <div class="resume-item-time-place">
+                      <p class="resume-item-time">2017—2018</p>
+                      <p class="resume-item-place">
+                        Odessa National Maritime University
+                      </p>
+                    </div>
+                    <p class="resume-item-text">Master's degree</p>
+                  </li>
+                  <li class="resume-item">
+                    <h5 class="resume-item-title">
+                      Maritime transport and economics
+                    </h5>
+                    <div class="resume-item-time-place">
+                      <p class="resume-item-time">2016</p>
+                      <p class="resume-item-place">
+                        Shanghai Maritime University
+                      </p>
+                    </div>
+                    <p class="resume-item-text">Students exchange program</p>
+                  </li>
+                  <li class="resume-item">
+                    <h5 class="resume-item-title">
+                      Transport technologies and systems
+                    </h5>
+                    <div class="resume-item-time-place">
+                      <p class="resume-item-time">2013 - 2017</p>
+                      <p class="resume-item-place">
+                        Odessa National Maritime University
+                      </p>
+                    </div>
+                    <p class="resume-item-text">Bachelor’s degree with honor</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---------------------------WORKS------------------------------- -->
+        <section id="portfolio" class="works-section">
+          <div class="container">
+            <h1 class="works-heading">
+              My
+              <span class="works-heading-part">Works</span>
+            </h1>
+
+            <ul class="works-card-list">
+              <li class="works-card-item">
+                <a
+                  href="https://github.com/AlonaKrupenko/Wisdom_page"
+                  class="works-card-link"
+                  target="_blank"
+                >
+                  <img
+                    class="works-card-img"
+                    src="img/portfolio-item-1.png"
+                    alt="wisdom page"
+                  />
+                  <div class="works-card-title-block">
+                    <p class="works-card-title">WisdomePage</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="works-card-item">
+                <a
+                  href="https://github.com/AlonaKrupenko/Alivio"
+                  class="works-card-link"
+                  target="_blank"
+                >
+                  <img
+                    class="works-card-img"
+                    src="img/portfolio-item-2.png"
+                    alt="alivio"
+                  />
+                  <div class="works-card-title-block">
+                    <p class="works-card-title">Alivio</p>
+                  </div>
+                </a>
+              </li>
+              <li class="works-card-item">
+                <a
+                  href="https://github.com/AlonaKrupenko/Portfolio"
+                  class="works-card-link"
+                  target="_blank"
+                >
+                  <img
+                    class="works-card-img"
+                    src="img/portfolio-item-3.png"
+                    alt="Portfolio"
+                  />
+                  <div class="works-card-title-block">
+                    <p class="works-card-title">Responsive Portfolio</p>
+                  </div>
+                </a>
+              </li>
+              <li class="works-card-item">
+                <a
+                  href="https://github.com/AlonaKrupenko/Animations"
+                  class="works-card-link"
+                  target="_blank"
+                >
+                  <img
+                    class="works-card-img"
+                    src="img/portfolio-item-4.png"
+                    alt="animations"
+                  />
+                  <div class="works-card-title-block">
+                    <p class="works-card-title">Animations</p>
+                  </div>
+                </a>
+              </li>
+              <li class="works-card-item">
+                <a
+                  href="https://github.com/AlonaKrupenko/Grid_Gallery"
+                  class="works-card-link"
+                  target="_blank"
+                >
+                  <img
+                    class="works-card-img"
+                    src="img/portfolio-item-5.png"
+                    alt="Grid Gallery"
+                  />
+                  <div class="works-card-title-block">
+                    <p class="works-card-title">Grid Gallery</p>
+                  </div>
+                </a>
+              </li>
+              <li class="works-card-item">
+                <a
+                  href="https://github.com/AlonaKrupenko/Bootstrap"
+                  class="works-card-link"
+                  target="_blank"
+                >
+                  <img
+                    class="works-card-img"
+                    src="img/portfolio-item-6.png"
+                    alt="bootstrap"
+                  />
+                  <div class="works-card-title-block">
+                    <p class="works-card-title">Bootstrap Template</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!---------------------------CONTACT------------------------------- -->
+        <section id="contacts" class="contact-section">
+          <div class="container">
+            <h1 class="contact-heading">
+              Get
+              <span class="contact-heading-part">In Touch</span>
+            </h1>
+            <div class="contact-info-block">
+              <ul class="contact-list">
+                <li class="contact-item">
+                  <a
+                    target="_blank"
+                    href="https://www.google.com.ua/maps/place/%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.4588561,30.5092265,10.5z/data=!4m5!3m4!1s0x40c6318a0b864c43:0x129f8fe28cf2176c!8m2!3d46.482526!4d30.7233095?hl=ru"
+                    class="contact-link"
+                  >
+                    <i class="contact-link-icon fas fa-map-marker-alt"></i>
+                    <p class="contact-link-text">Odessa, Ukreaine</p>
+                  </a>
+                </li>
+                <li class="contact-item">
+                  <a href="tel:+11234567890" class="contact-link">
+                    <i class="contact-link-icon fas fa-phone-alt"></i>
+                    <p class="contact-link-text">(+380) 63 079 63 89</p>
+                  </a>
+                </li>
+                <li class="contact-item">
+                  <a
+                    href="mailto:alona.s.krupenko@gmail.com"
+                    class="contact-link"
+                  >
+                    <i class="contact-link-icon fab fa-telegram-plane"></i>
+                    <p class="contact-link-text">alona.s.krupenko@gmail.com</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
